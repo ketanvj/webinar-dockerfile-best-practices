@@ -1,5 +1,5 @@
 FROM alpine
 COPY ./src/example_app /app/example_app
 USER 1000
-WORKDIR /tmp
+WORKDIR /tmp1
 ENTRYPOINT /app/example_app
